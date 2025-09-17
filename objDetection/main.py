@@ -1,13 +1,17 @@
-import cv2
+from ultralytics import YOLO
 
-net = cv2.dnn.readNet()
+# Load a pretrained YOLO11n model
+model = YOLO("yolo11n.pt")
 
-vidCapture = cv2.VideoCapture(0)
+# Train the model on the COCO8 dataset for 100 epochs
+train_results = model.train(
+    data="/Users/kporeba6311/Documents/GitHub/ABB_OPENCV/objDetection/config.yaml",  # Path to dataset configuration file
+    epochs=100,  # Number of training epochs
+    imgsz=640,  # Image size for training
+    device="cpu",  # Device to run on (e.g., 'cpu', 0, [0,1,2,3])
+)
 
-while True:
-# frame is each frame of webcame and ret
-# checks whether frame exists or not
-    ret, frame = vidCapture.read() 
 
-    cv2.imshow("frame", frame)
-    cv2.waitKey(1)
+
+
+
