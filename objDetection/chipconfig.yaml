@@ -1,0 +1,9 @@
+
+path: G:\GithubRepos\ABB_OPENCV\objDetection\trainingData\1887AnotatedChips
+train: G:\GithubRepos\ABB_OPENCV\objDetection\trainingData\1887AnotatedChips\obj_Train_data\images\train
+val: G:\GithubRepos\ABB_OPENCV\objDetection\trainingData\1887AnotatedChips\obj_Train_data\images\train
+
+
+# Classes
+nc: 3
+names: ['Circle', 'Square', 'Triangle']

@@ -1,7 +1,7 @@
 
-path: /Users/kporeba6311/Documents/GitHub/ABB_OPENCV/objDetection/trainingData/annotated_data_2
-train: /Users/kporeba6311/Documents/GitHub/ABB_OPENCV/objDetection/trainingData/annotated_data/obj_train_data/images
-val: /Users/kporeba6311/Documents/GitHub/ABB_OPENCV/objDetection/trainingData/annotated_data/obj_train_data/images
+path: G:\GithubRepos\ABB_OPENCV\objDetection\trainingData\annotated_data_2
+train: G:\GithubRepos\ABB_OPENCV\objDetection\trainingData\annotated_data_2\obj_Train_data\images\train
+val: G:\GithubRepos\ABB_OPENCV\objDetection\trainingData\annotated_data_2\obj_Train_data\images\train
 
 
 # Classes
