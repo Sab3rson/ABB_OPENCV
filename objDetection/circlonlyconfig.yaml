@@ -1,0 +1,8 @@
+path: G:\GithubRepos\ABB_OPENCV\objDetection\trainingData\LatestCircleChipsOnly
+train: train
+val: val
+
+
+# Classes
+nc: 1
+names: ['Circle']
